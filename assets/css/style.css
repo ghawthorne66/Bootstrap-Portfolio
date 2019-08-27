@@ -1,0 +1,121 @@
+header {
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-expand {
+  justify-content: flex-end;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  color: grey;
+}
+
+.title {
+  background: #59AAA5;
+  height: 100%;
+  width: 40%;
+  color: white;
+  font-family: serif;
+}
+
+.inner-header {
+  padding: 0px 40px;
+}
+
+.content {
+  padding: 0px 40px;
+}
+
+body {
+  background-image: url('../images/concrete_seamless.png');
+  height: 100%;
+}
+
+.card-title {
+  font-family: serif;
+  color: #59AAA5;
+  font-weight: bold;
+}
+
+.media-object {
+  width: 100%;
+}
+
+.media {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+.navbar-expand .navbar-nav .nav-link{
+  cursor: pointer !important;
+}
+
+
+
+/*PORTFOLIO*/
+.media .col-sm-6 h4{
+  background-color: #59AAA5;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  position: relative;
+  bottom: 60px;
+}
+
+/*CONTACT*/
+.btn-success{
+  background: #59AAA5;
+}
+.btn,.form-control{
+  border-radius: 0px;
+}
+form{
+  width: 100%;
+}
+
+footer {
+  background-color: #666666;
+  border-top: 5px solid #59AAA5;
+  margin-top: 3rem!important
+}
+
+.footer-inner {
+  color: white;
+  font-size: 14px;
+  padding: 30px;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: 100% !important;
+  }
+  .content {
+    padding: 10px !important;
+  }
+  .navbar-expand {
+    justify-content: space-around !important;
+  }
+  .inner-header {
+    padding: 0px;
+  }
+  .title {
+    width: 100% !important;
+    padding: 15px 0px !important;
+  }
+  .media .col-sm-6 h4{
+    font-size: 20px !important;
+    bottom: 55px;
+  }
+  .media .col-sm-6{
+    padding: 0px !important;
+  }
+}
+
